@@ -4,7 +4,7 @@ import pandas as pd
 
 st.title('Python URL / Redirect Mapping with Crawl Details')
 st.subheader('Directions:')
-st.write('- Upload old crawl \n - Upload New Crawl CSV \n - Would not '
+st.write('- Upload Old Crawl CSV from Screaming Frog \n - Upload New Crawl CSV Screaming Frog \n - Would not '
          'recommend with over 10k URLs (very slow)')
 st.write("Author - [Venkata Pagadala](https://www.linkedin.com/in/venkata-pagadala/)")
 # Importing the URL CSV files
