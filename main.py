@@ -28,7 +28,7 @@ if file1 is not None and file2 is not None:
     # Polishing and Pruning
     df1["Similarity"] = df1["Similarity"].round(3)
     df1 = df1.sort_values(by='Similarity', ascending=False)
-    index_names = df1.loc[df1['Similarity'] < .799].index
+    index_names = df1.loc[df1['Similarity'] < .899].index
     amt_dropped = len(index_names)
     df1.drop(index_names, inplace=True)
     df1["To"] = ROOTDOMAIN + df1["To"]
